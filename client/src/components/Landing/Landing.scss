@@ -1,0 +1,46 @@
+.landing-div {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+
+    .description-box {
+        margin: 40px 48px 120px 48px;
+
+            img {
+                position: absolute;
+                margin-left: 80px;
+                width: 300px;
+                left: 40px;
+                top: 88px;
+                }
+            
+            .description {
+                margin: 48px 0 0 48px;
+                display: flex;
+                justify-content: flex-end;
+                line-height: 1.6;
+
+                p {
+                    max-width: 60%;
+                    color: white;
+                }
+            }
+    }
+
+    .video-box {
+        display: flex;
+        flex-direction: column; 
+        margin: 56px;
+
+        h2 {
+            color: white;
+            font-size: 2.4rem;
+            text-align: center;
+        }
+
+        .video {
+        margin: 24px auto 80px auto;
+        }
+
+    }
+}
