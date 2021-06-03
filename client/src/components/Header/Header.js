@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Header.scss";
 
 
@@ -10,9 +11,10 @@ const Header = () => {
               <h2>Spokane County Court Corruption</h2>
           </div>
           <nav>
-            <a className="header-a" >Link 1</a>
-            <a className="header-a" >Link 2</a>
-            <a className="header-a" >Contact</a>
+            <Link className="header-a" to="/" exact>Home</Link>
+            <Link className="header-a" to="/complaint">DOJ Complaint</Link>
+            <Link className="header-a">Media</Link>
+            <Link className="header-a">Contact</Link>
           </nav>
       </header>
     )
