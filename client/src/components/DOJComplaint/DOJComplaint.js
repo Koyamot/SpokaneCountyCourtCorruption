@@ -1,5 +1,4 @@
 import React from "react";
-import { Document, Page } from "react-pdf";
 import "./DOJComplaint.scss";
 import FileViewer from "react-file-viewer";
 import Doc from "../../pdfs/DOJ.docx";
