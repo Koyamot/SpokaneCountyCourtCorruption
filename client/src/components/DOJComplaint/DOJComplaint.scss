@@ -32,8 +32,20 @@
         #pg-viewer {
             p {
                 color: #000;
+                line-height: normal;
+            }
+            a {
+                padding: 0;
+                color: blue;
+                background-color: transparent;
+                font-weight: 500;
             }
         }
     }
+
+    .pg-viewer-wrapper :link, .pg-viewer-wrapper :visited {
+        text-decoration: none;
+    }
+
 }
 

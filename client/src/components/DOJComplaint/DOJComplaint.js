@@ -25,12 +25,13 @@ const Complaint = () => {
           </a>
         </span>
       </p>
-      <div>
+      <div className="complaint-file">
         <h3>Civil Rights Complaint</h3>
         <FileViewer
           fileType={type}
           filePath={file}
           error={onError}
+          target="_blank"
         />
       </div>
     </div>
