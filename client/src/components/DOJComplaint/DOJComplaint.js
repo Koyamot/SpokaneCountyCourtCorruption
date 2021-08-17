@@ -1,5 +1,4 @@
 import React from "react";
-import { Document, Page } from "react-pdf";
 import "./DOJComplaint.scss";
 import FileViewer from "react-file-viewer";
 import Doc from "../../pdfs/DOJ.docx";
@@ -26,12 +25,13 @@ const Complaint = () => {
           </a>
         </span>
       </p>
-      <div>
+      <div className="complaint-file">
         <h3>Civil Rights Complaint</h3>
         <FileViewer
           fileType={type}
           filePath={file}
           error={onError}
+          target="_blank"
         />
       </div>
     </div>
