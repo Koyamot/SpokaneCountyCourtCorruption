@@ -1,0 +1,16 @@
+.media-div {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+
+.video-box {
+  display: flex;
+  flex-direction: column;
+  margin: 56px;
+
+  .video {
+    margin: 24px auto 80px auto;
+  }
+}
+
+}

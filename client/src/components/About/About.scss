@@ -1,0 +1,42 @@
+.about-div {
+  background-color: #333;
+  padding: 40px;
+  color: white;
+  padding-top: 48px;
+
+  h2 {
+      margin-bottom: 48px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        margin: 24px 8px;
+        height: 32px;
+    }
+
+    textarea {
+        width: 450px;
+        height: 210px;
+        margin-top: 8px;
+    }
+
+    .send-button {
+        margin-top: 48px;
+        width: 450px;
+        height: 64px;
+        border-radius: 4px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+  }
+
+  .name-box {
+      margin-top: 48px;
+  }
+
+}

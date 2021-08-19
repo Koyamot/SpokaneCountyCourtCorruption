@@ -3,6 +3,7 @@ import "./DOJComplaint.scss";
 import FileViewer from "react-file-viewer";
 import Doc from "../../pdfs/DOJ.docx";
 
+
 const file = `${Doc}`;
 const type = "docx";
 
@@ -31,7 +32,7 @@ const Complaint = () => {
           fileType={type}
           filePath={file}
           error={onError}
-          target="_blank"
+          
         />
       </div>
     </div>
