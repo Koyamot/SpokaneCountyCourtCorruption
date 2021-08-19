@@ -5,7 +5,8 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header/Header"
 import Landing from "./components/Landing/Landing"
 import Complaint from "./components/DOJComplaint/DOJComplaint"
-// import Contact from "./components/contact/Contact"
+import About from "./components/About/About"
+import Media from './components/Media/Media';
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
         <Route path='/complaint' exact>
           <Complaint />
         </Route>
-        {/* <Route path='/' component={Contact} /> */}
+        <Route path='/contact' component={About} exact/>
+        <Route path='/media' component={Media} exact/>
       </Switch>
     </main>
   );

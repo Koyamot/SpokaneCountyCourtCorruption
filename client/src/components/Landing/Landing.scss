@@ -1,46 +1,95 @@
+@import "~include-media/dist/_include-media.scss";
+
+$breakpoints: (
+  phone: 319px,
+  tablet: 768px,
+  desktop: 1024px,
+);
+
 .landing-div {
-    background-color: #333333;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+
+  .header-h2 {
+    background-color: #828282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+
+    h2 {
+      font-style: normal;
+      font-size: 2.8rem;
+      font-weight: bold;
+      color: white;
+
+      @include media(">=phone", "<=tablet") {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .description-box {
+    margin: 40px 48px 0 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    @include media(">=phone", "<=tablet") {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+
+    img {
+      margin-top: 48px;
+      margin-left: 40px;
+      width: 30rem;
+
+      @include media(">=phone", "<=tablet") {
+        width: 15rem;
+        margin-left: 0;
+      }
+    }
+
+    .description {
+      margin: 48px 0 0 48px;
+      line-height: 1.6;
+      @include media(">=phone", "<=tablet") {
+        margin: 0 48px;
+      }
+      p {
+        color: white;
+      }
+    }
+  }
+
+  .video-box {
     display: flex;
     flex-direction: column;
+    margin-top: 56px;
 
-    .description-box {
-        margin: 40px 48px 0 48px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-            img {
-                // position: absolute;
-                margin-left: 40px;
-                width: 300px;
-
-                }
-            
-            .description {
-                margin: 48px 0 0 48px;
-                line-height: 1.6;
-
-                p {
-                    color: white;
-                }
-            }
+    h2 {
+      color: white;
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+      @include media(">=phone", "<=tablet") {
+        font-size: 1.6rem;
+      }
     }
+    .player-wrapper {
+        width: 640px;
+        height: 360px;
+        margin: 40px auto;
+    //   .react-player {
 
-    .video-box {
-        display: flex;
-        flex-direction: column; 
-        margin: 56px;
-
-        h2 {
-            color: white;
-            font-size: 2.4rem;
-            font-weight: bold;
-            text-align: center;
-        }
-
-        .video {
-        margin: 24px auto 80px auto;
-        }
-
+    //   }
+      @include media(">=phone", "<=tablet") {
+        width: 320px;
+        height: 180px;
+      }
     }
+  }
 }

@@ -7,6 +7,9 @@ import courthouse from "../../images/courthouse.png";
 const Landing = () => {
   return (
     <div className="landing-div">
+      <div className="header-h2">
+        <h2>Spokane County Court Corruption</h2>
+      </div>
       <section className="description-box">
         <img src={courthouse} alt="Spokane Courthouse" />
         <div className="description">
@@ -48,12 +51,15 @@ const Landing = () => {
         </div>
       </section>
       <section className="video-box">
-        <h2>Our Story:</h2>
-        <ReactPlayer
-          className="video"
-          url="https://youtu.be/91D3_5H5Sz0"
-          controls="true"
-        />
+        <h2>Watch Our Story:</h2>
+        <div className="player-wrapper">
+          <ReactPlayer
+            className="react-player"
+            url="https://youtu.be/91D3_5H5Sz0"
+            width="100%"
+            height="100%"
+          />
+        </div>
       </section>
     </div>
   );
