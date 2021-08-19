@@ -29,13 +29,10 @@ const About = () => {
       
   return (
     <div className="about-div">
-      <h2>Submit Your Request</h2>
+      <h2>Send us a message</h2>
       <form className="flex-column align-center" onSubmit={sendEmail}>
         <p>
-          We are excited to have you stay with us! Please fill out the form
-          below, and we'll get back to you as soon as possible. If you have any
-          accomodations, pets, questions, please add them to the message
-          section.
+          It has been a long and tiresome road. Do you have a similar case? We want to hear from you.
         </p>
         <div className="name-box">
           <label>
