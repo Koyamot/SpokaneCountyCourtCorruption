@@ -5,6 +5,9 @@ import "./Header.scss";
 const Header = () => {
   return (
     <header>
+      <div className="header-h2">
+        <h2>Spokane County Court Corruption</h2>
+      </div>
       <nav>
         <Link className="header-a" to="/" exact>
           Home

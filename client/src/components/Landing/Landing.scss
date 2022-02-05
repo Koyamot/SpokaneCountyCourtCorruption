@@ -11,26 +11,6 @@ $breakpoints: (
   display: flex;
   flex-direction: column;
 
-  .header-h2 {
-    background-color: #828282;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-
-    h2 {
-      font-style: normal;
-      font-size: 2.8rem;
-      font-weight: bold;
-      color: white;
-
-      @include media(">=phone", "<=tablet") {
-        font-size: 1.6rem;
-      }
-    }
-  }
-
   .description-box {
     margin: 40px 48px 0 48px;
     display: flex;

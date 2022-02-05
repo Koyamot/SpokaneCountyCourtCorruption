@@ -7,9 +7,6 @@ import courthouse from "../../images/courthouse.png";
 const Landing = () => {
   return (
     <div className="landing-div">
-      <div className="header-h2">
-        <h2>Spokane County Court Corruption</h2>
-      </div>
       <section className="description-box">
         <img src={courthouse} alt="Spokane Courthouse" />
         <div className="description">
