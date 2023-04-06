@@ -11,7 +11,7 @@ const Landing = () => {
         <img src={courthouse} alt="Spokane Courthouse" />
         <div className="description">
           <p>
-            Thank you for your interest in my case. My name is Teresa. My husband,
+            Thank you for your interest my family's case. My name is Teresa. My husband,
             Ron and I met in 1997. I was 33 and Ron was 46. I have a daughter,
             Megan, that my ex-husband and I share that became part of this
             relationship also. Ron, an African - American has accomplished the
