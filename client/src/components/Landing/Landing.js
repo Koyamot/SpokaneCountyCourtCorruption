@@ -10,6 +10,7 @@ const Landing = () => {
       <section className="description-box">
         <img src={courthouse} alt="Spokane Courthouse" />
         <div className="description">
+        <p><bold>Welcome to Spokane Country Court Corruption</bold></p>
           <p>
             Thank you for your interest my family's case. My name is Teresa. My husband,
             Ron and I met in 1997. I was 33 and Ron was 46. I have a daughter,
