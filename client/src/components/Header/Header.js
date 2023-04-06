@@ -9,7 +9,7 @@ const Header = () => {
         <h2>Spokane County Court Corruption</h2>
       </div>
       <nav>
-        <Link className="header-a" to="/" exact>
+        <Link className="header-a" to="/">
           Home
         </Link>
         <Link className="header-a" to="/complaint">

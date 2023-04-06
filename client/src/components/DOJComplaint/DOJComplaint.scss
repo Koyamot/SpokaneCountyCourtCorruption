@@ -20,6 +20,7 @@
 
     p {
         text-align: center;
+        line-height: 2;
     }
 
     a {
@@ -33,17 +34,27 @@
     }
     .pg-viewer-wrapper {
         overflow: hidden;
-        #pg-viewer {
-            p {
-                color: #000;
-                line-height: normal;
-            }
-            a {
-                padding: 0;
-                color: blue;
-                background-color: transparent;
-                font-weight: 500;
-            }
+        max-width: fit-content;
+        .document-container {
+            padding: 15px;
+            width: auto;
+            background: #fff;
+            margin: auto;
+            max-width: 100%;
+        }
+    }
+
+    #pg-viewer {
+        max-width: 100%;
+        p {
+            color: #000;
+            line-height: normal;
+        }
+        a {
+            padding: 0;
+            color: blue;
+            background-color: transparent;
+            font-weight: 500;
         }
     }
 
